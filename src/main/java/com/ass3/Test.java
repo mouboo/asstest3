@@ -32,7 +32,7 @@ public class Test {
         // Testing BankAccount.deposit() method
         register.findAccount("BA3").deposit(123);
 
-        // Testing BankAccount.withdraw() method
+        // Testing BankAccount.withdraw() method with error checking
         register.findAccount("BA3").withdraw(50);                       
         System.out.println(register.findAccount("BA3").getBalance());   // Should be 103+123-50 = 176
         register.findAccount("BA3").withdraw(100);
