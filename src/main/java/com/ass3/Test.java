@@ -13,7 +13,7 @@ public class Test {
         // "create two instances of Person, adding them to the PersonRegister instance,"
         Person personA = new Person("P0", "Arne Alfredsson", 34);
         register.addPerson(personA);
-        Person personB = new Person("P1", "Bertil Bengtsson", 17);
+        Person personB = new Person("P1", "Bertil Bengtsson", 19);
         register.addPerson(personB);
 
         // create and add two instances of BankAccount for each person,
