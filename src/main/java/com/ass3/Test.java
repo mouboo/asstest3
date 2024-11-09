@@ -41,8 +41,6 @@ public class Test {
         // Testing BankAccount.getBalance() method
         System.out.println(register.findAccount("BA3").getBalance());
 
-        
-
     }
     
 }
