@@ -22,7 +22,7 @@ public class PersonRegister {
     public Person findPerson(String idNum) {
         Person pToReturn = null;
         for (Person p : persons) {
-            if (p.getName() == idNum) {
+            if (p.getIdentificationNumber().equals(idNum)) {
                 pToReturn = p;
                 return pToReturn;
             }

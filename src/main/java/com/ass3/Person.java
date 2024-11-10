@@ -60,7 +60,7 @@ public class Person {
 
     public BankAccount findAccount (String accID) {
         for (BankAccount a : accounts) {
-            if (a.getAccountNumber() == accID) {
+            if (a.getAccountNumber().equals(accID)) {
                 return a;
             }
         }
